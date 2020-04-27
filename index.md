@@ -4,56 +4,41 @@
 <head>
 <style>
     html{
-        background-image: url("https://images-na.ssl-images-amazon.com/images/I/21IkEVBF1rL._AC_SX466_.jpg");
+        background-image: url("files/background.jpg");
         cursor:url(files/mycur.png), auto;
     }
 
-    .custom{
-        margin: auto;
+    .button{
+        background-color: firebrick;
+     border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    }
+
+    #mainText{
+        margin: 0 auto;
         border: 1px solid black;
         width: 800px;
         height: 500px;
         background-color: #ff0000;
         color: white;
         font-size: 75px;
-        animation: billRotate 10s infinite;
+        animation: textRotate 10s infinite;
         
     }
 
-    /*#container{
-        overflow: hidden;
-        width: 100%;
-    }*/
-
     #video{
-        margin-left: 30%;
+        /*margin-left: 30%;
         margin-right: 30%;
+        margin-top: 100px;*/
+        /*margin: 0 auto;*/
         margin-top: 100px;
     }
 
-    /*#left{
-        float:left;
-        width: 50px;
-        
-    }*/
-
-    /*#right{
-        float: right;
-        visibility: hidden;
-    }*/
-
-    #audio{
-        margin: auto;
-        border: 1px solid black;
-        width: 200px;
-        height: 100px;
-        background-color: coral;
-        color: white;
-        animation: billRotate 10s infinite;
-        visibility: hidden;
-    }
-
-    @keyframes billRotate{
+    @keyframes textRotate{
         50% {transform: rotate(720deg); background-color: #0000ff; color: black;}
     }
 
@@ -65,38 +50,15 @@
 </head>
 
 <body>
+  
+<button class=button>Check out my other work!</button>
 
-<h1></h1>
-
-<p>
-    
-</p>
-
-<div class=custom>
+<div id="mainText" style="text-align: center;">
     <h1>Carter 4 Webmaster</h1>
 </div>
 
-<!--<div id="container">-->
-
-    <!--<div id="left">
-        <p>filler text</p>
-    </div>-->
-
-    <div id="video">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/vhx1iphnaNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <!--<div id="right">
-        <p>filler text</p>
-    </div>>-->
-
-<!--</div>-->
-
-<div id="audio">
-<audio controls autoplay>
-    <source src=files/bashar.mp3 type="audio/mp3">
-    Your browser does not support the audio element.
-</audio>
+<div id="video" style="text-align: center;">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/OwVgE-DNfYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </body>
