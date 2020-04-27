@@ -4,7 +4,7 @@
 <head>
 <style>
     html{
-        background-image: url("files/background.jpg");
+        background-image: url("files/Background.jpg");
         cursor:url(files/mycur.png), auto;
     }
 
