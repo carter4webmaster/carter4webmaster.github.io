@@ -26,7 +26,7 @@
     #mainText{
         margin: 0 auto;
         border: 1px solid black;
-        width: 800px;
+        width: 1000px;
         height: 500px;
         background-color: #ff0000;
         color: white;
